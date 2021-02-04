@@ -27,8 +27,18 @@ header h1,h4{
   display:block;
 }
 
+.bottomRow{
+  display:flex;
+  justify-content: center;
+  padding-left: 110px;
+}
 
 
+
+svg{
+  width: 100px;
+  height: 60px;
+}
 
 
 .content{
@@ -69,20 +79,22 @@ ul li{
 }
 
 
+/*margin auto will center the photo*/
 
 .myInterests{
   padding-top: 20px;
   padding-bottom: 20px;
   height: 300px;
-  width:960px;
+  max-width: 95%;
+  margin: auto;
 
 
 }
 
 .album{
   height:250px;
-  width:220px;
-  padding-left: 10px;
+  max-width: 24%
+
 
 }
 
